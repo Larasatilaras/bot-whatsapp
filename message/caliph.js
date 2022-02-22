@@ -138,11 +138,11 @@ menu = `
 ┃⬡ Total Grup : ${gc.length}
 ┃⬡ Runtime : ${runtime()}
 ┃⬡ Battery : ${caliph.battery ? caliph.battery.value +'%' : 'Belum kedetect'} ${caliph.battery ? caliph.battery.live ? '🔌 Charging...' : '⚡ Discharging' : ''}
-┃⬡ Source code : https://clph.pw/m9oU
+┃⬡ Source code : FOLLOW IG OWNER
 ┗━━⬣
 
-┏━━━⬣ 𝙂𝘾 𝘽𝙊𝙏 𝙒𝘼
-┃ ⬡ Gc 1 : https://clph.pw/gcbot
+┏━━━⬣ SOSMED OWNER!
+┃ ⬡ IG : https://instagram.com/pangerann21_
 ┗━━⬣
 
 ┏━━「 Main Menu 」
@@ -302,7 +302,7 @@ buffer = await (m.quoted ? m.quoted : m).download()
 var { result } = await uploadFile(buffer)
 apinya = global.API("caliphAPI", "/api/img/"+command.slice(1), { url: result.url }, "apikey")
 buffer = await getBuffer(apinya)
-caliph.sendMessage(m.chat, buffer, mType.image, { quoted: m, caption: 'Nih kak dh jdi\nFollow : Instagram.com/caliph91_' })
+caliph.sendMessage(m.chat, buffer, mType.image, { quoted: m, caption: 'Nih kak dh jdi\nFollow : Instagram.com/pangerann21_' })
 break
 case prefix+'upload':
 case prefix+'tourl':
@@ -918,7 +918,7 @@ if (!args[0]) {
 const buttonsMessage = {
     contentText: `Pilih Enable atau Disable
 `.trim(),    
-footerText: `🔰 ${caliph.user.name} By Caliph71🔰`,
+footerText: `🔰 ${caliph.user.name} By Pangeran🔰`,
     buttons: buttons,
     headerType: 1
 }
@@ -948,7 +948,7 @@ if (!args[0]) {
 const buttonsMessage = {
     contentText: `Pilih Enable atau Disable
 `.trim(),    
-footerText: `🔰 ${caliph.user.name} By Caliph71🔰`,
+footerText: `🔰 ${caliph.user.name} By Pangeran🔰`,
     buttons: buttons,
     headerType: 1
 }
@@ -978,7 +978,7 @@ if (!args[0]) {
 const buttonsMessage = {
     contentText: `Pilih Enable atau Disable
 `.trim(),    
-footerText: `🔰 ${caliph.user.name} By Caliph71🔰`,
+footerText: `🔰 ${caliph.user.name} By Pangeran🔰`,
     buttons: buttons,
     headerType: 1
 }
