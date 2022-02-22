@@ -11,7 +11,7 @@ module.exports = async function connect(caliph, m) {
 ]
 const buttonsMessage = {
     contentText: `Terdeteksi @${m.participant.split('@')[0]} Telah Menghapus Pesan`.trim(),    
-footerText:`Rikka-Bot By Caliph | © ${new Date().getFullYear()}`,
+footerText:`Rikka-Bot By Pangeran | © ${new Date().getFullYear()}`,
     buttons: buttons,
     headerType: "EMPTY"
 }
