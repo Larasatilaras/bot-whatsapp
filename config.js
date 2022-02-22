@@ -1,23 +1,23 @@
 let fs = require('fs')
 let chalk = require('chalk')
-global.owner = ['62882003806038']
+global.owner = ['6287832147584']
 global.autoread = false
 global.selfmode = false
 global.autobio = false // or node . --autobio
 global.thumb = './thumb/itsuki.jpg'
-global.fakereplyt = 'Rikka-Botz WhatsApp'
+global.fakereplyt = 'Pangeran-Botz WhatsApp'
 global.mess = {
 group : {
 welcome : `Welcome @user\n\nSelamat datang di grup @subject`,
-bye : `Bye @user`,
-promote: '@user Sekarang admin!',
-demote: '@user Sekarang bukan admin!'
+bye : `Selamat Meninggal @user Beban Keluarga`,
+promote: 'Ciee asik @user Sekarang Jadi Raja!',
+demote: 'Mampuzz @user Sekarang Jadi Babu Raja!'
 },
 error : 'Terjadi Kesalahan',
 success: 'Sukses...'
 }
 global.prefix = '🐤'
-global.author = '@caliph91_'
+global.author = '@pangerann21_'
 global.packname = 'WhatsApp Bot'
 
 
@@ -36,13 +36,13 @@ global.APIs = { // API Prefix
 }
 
 global.APIKeys = { // APIKey Here
-   'http://api.vhtear.com': 'YOUR-APIKEY',
-   'https://api.lolhuman.xyz': 'YOUR-APIKEY',
-  'https://api.xteam.xyz': 'YOUR-APIKEY'
+   'http://api.vhtear.com': 'NOT-PREMIUM',
+   'https://api.lolhuman.xyz': '7fc314b6414b6ed2fc5c3058',
+  'https://api.xteam.xyz': '4174b0fba23611d9'
 ,
   'https://api.zeks.me': 'rikkabotwa',
   'https://rikka-api.xyz': 'free5d', // chat wa.me/62882003806038 to buy apikey
-   'https://api.caliph71.xyz': 'free5d' // chat wa.me/62882003806038 to buy apikey
+   'https://api.caliph71.xyz': 'uVMDxJfM' // chat wa.me/62882003806038 to buy apikey
 }
 
 let file = require.resolve(__filename)
