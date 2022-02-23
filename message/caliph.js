@@ -138,7 +138,7 @@ menu = `
 ┃⬡ Total Grup : ${gc.length}
 ┃⬡ Runtime : ${runtime()}
 ┃⬡ Battery : ${caliph.battery ? caliph.battery.value +'%' : 'Belum kedetect'} ${caliph.battery ? caliph.battery.live ? '🔌 Charging...' : '⚡ Discharging' : ''}
-┃⬡ Source code : FOLLOW IG OWNER
+┃⬡ Source code : FOLLOW IG OWNER!
 ┗━━⬣
 
 ┏━━━⬣ SOSMED OWNER!
@@ -246,7 +246,7 @@ menu = `
 
 `.trim()
 var img = fs.readFileSync(global.thumb)
-caliph.sendMessage(m.chat, img, mType.image, { quoted: freply('Rikka-Botz WhatsApp', img), caption: menu })
+caliph.sendMessage(m.chat, img, mType.image, { quoted: freply('Pangeran-Botz WhatsApp', img), caption: menu })
 break 
 case prefix+'runtime':
 case prefix+'uptime':
